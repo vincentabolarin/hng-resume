@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+#my-name {
+    display: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: verdana;
+    font-size: 1.5em;
+}
+
+button {
+    background-color: greenyellow;
+    color: black;
+    border: 0px;
+    border-radius: 10px 10px;
+}
