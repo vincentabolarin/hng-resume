@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: verdana, arial, helvetica;
+}
+
+header, header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: darkslategray;
+    margin: -10px -20px 0px -10px;
+    padding: 10px 20px 10px 10px;
+}
+
+header div h1, header div h4, header div p {
+    margin: -10px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0 0 0 50px;
+}
+
+#my-picture {
+    max-width: 40%;
+    height: auto;
+    border-radius: 50% 0% 50% 50%;
+    border: 5px solid red;
+    margin: 10px;
+}
+
+.experience-logos {
+    max-width: 40%;
+    height: auto;
+    margin: 10px;
+}
+
+.experience-logos {
+    margin-left: 50px;
+    margin-bottom: -15px;
+}
+
+h1, h4, p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header div p {
+    color: rgb(209, 209, 209);
+}
+
+#name {
+    color: white;
+    font-size: 2.5em;
+}
+
+#role {
+    color: yellow;
+    font-style: italic;
+    font-size: 1.4em;
+}
+
+#contact-details {
+    margin: -10px;
+}
+
+#contact-details ul {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 1;
+    justify-content: space-between;
+    padding: 10px 20px;
+    list-style-type: none;
+    color: white;
+    background: black;
+    margin: 10px -10px -10px -10px;
+    font-family: verdana, arial, helvetica;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+ul li {
+    list-style-position: inside;
+    margin-left: 1em;
+}
+
+.fas, .fa-solid, #contact-details ul li {
+    margin: 3px;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+#main-content div section, #main-content div section h4 {
+    margin-top: 10px;
+}
+
+.headings {
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+
+#name-link {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+#to-name {
+    margin-top: 20px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+@media (min-width: 376px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: -20px;
+        width: 100vw;
+        padding: 20px;
+    }
+
+    header div {
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+
+    header div p {
+        text-align: left;
+    }
+
+    #my-picture {
+        max-width: 15%;
+        height: auto;
+    }
+
+    #contact-details ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #main-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .headings a {
+        text-decoration: none;
+    }
+}
