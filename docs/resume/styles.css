@@ -132,7 +132,7 @@ ul li {
 
 
 
-@media (min-width: 376px) {
+@media (min-width: 768px) {
     header {
         flex-direction: row;
         justify-content: space-between;
