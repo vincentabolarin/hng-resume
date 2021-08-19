@@ -4,20 +4,27 @@
 
 body {
     text-align: center;
+    background: black;
 }
 
 #my-name {
     display: none;
     text-transform: uppercase;
     font-weight: bold;
-    font-family: "comic sans ms", tahoma, arial, helvetica;
-    font-size: 3em;
-    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+#resume-button {
+    display: none;
+    color: white;
+    font-family: georgia, serif;
 }
 
 button {
-    background-color: greenyellow;
-    color: black;
+    background-color: green;
+    color: white;
     border: 0px;
     border-radius: 5px 5px;
     cursor: pointer;

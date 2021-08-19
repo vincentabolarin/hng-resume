@@ -1,17 +1,20 @@
 const NAME_TOGGLE = () => {
 
     var nameDisplay = document.getElementById("my-name");
-    var button = document.getElementById("name-button");
+    var nameButton = document.getElementById("name-button");
+    var resumeButton = document.getElementById("resume-button");
 
     if (nameDisplay.style.display === "none") {
         nameDisplay.style.display = "block";
-        button.innerHTML = "Hide Name";
-        button.style.backgroundColor = "red";
-        button.style.color = "white";
+        nameButton.innerHTML = "Hide Name";
+        nameButton.style.backgroundColor = "red";
+        nameButton.style.color = "white";
+        resumeButton.style.display = "block";
     } else {
         nameDisplay.style.display = "none";
-        button.innerHTML = "Show Name";
-        button.style.backgroundColor = "greenyellow";
-        button.style.color = "black";
+        nameButton.innerHTML = "Show Name";
+        nameButton.style.backgroundColor = "green";
+        nameButton.style.color = "white";
+        resumeButton.style.display = "none";
     }
 }

@@ -5,6 +5,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header, header div {
@@ -18,17 +19,17 @@ header {
     margin: -10px;
 }
 
+header div h1, header div h4, header div p {
+    margin: 0 0 0 50px;
+    font-size: 1em;
+}
+
 img {
     max-width: 40%;
     height: auto;
     border-radius: 50% 0% 50% 50%;
     border: 5px solid red;
     margin: 5px;
-}
-
-header div h1, header div h4, header div p {
-    margin: 0 0 0 50px;
-    font-size: 1em;
 }
 
 h1, h4, p {
@@ -39,12 +40,12 @@ header div p {
     color: rgb(209, 209, 209);
 }
 
-h1 {
+#name {
     color: white;
     font-size: 2.5em;
 }
 
-h4 {
+#role {
     color: yellow;
     font-style: italic;
 }
@@ -58,6 +59,20 @@ h4 {
     margin: 10px -10px -10px -10px;
     font-family: verdana, arial, helvetica;
     font-size: 0.8em;
+}
+
+.fas, .fa-solid, #contact-details ul li {
+    margin: 3px;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headings {
+    color: red;
 }
 
 
