@@ -163,7 +163,11 @@ ul li {
     #main-content {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
+    }
+
+    #main-content div {
+        margin: 50px;
     }
 
     .headings a {
