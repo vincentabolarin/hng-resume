@@ -162,6 +162,8 @@ ul li {
     background-color: yellow;
     color: black;
     cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 
