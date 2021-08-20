@@ -198,6 +198,7 @@ ul li {
     #contact-details ul {
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
     }
 
     #main-content {
