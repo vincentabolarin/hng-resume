@@ -117,6 +117,10 @@ ul li {
     text-align: center;
 }
 
+#main-content div section p {
+    display: none;
+}
+
 .skill-level-container {
     height: 20px;
     width: 100%;
@@ -206,5 +210,13 @@ ul li {
 
     .headings a {
         text-decoration: none;
+    }
+
+    .skill-level-container, .skill-level {
+        display: none;
+    }
+
+    .headings {
+        width: 40vw;
     }
 }
