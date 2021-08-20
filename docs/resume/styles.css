@@ -218,6 +218,10 @@ ul li {
         display: none;
     }
 
+    #main-content div section p {
+        display: block;
+    }
+
     .headings {
         width: 40vw;
     }
