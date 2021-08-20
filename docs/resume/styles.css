@@ -119,13 +119,13 @@ ul li {
 
 .skill-level-container {
     height: 20px;
-    width: 80%;
+    width: 100%;
     background-color: lightgray;
     border-radius: 10px;
 }
 
 .skill-level {
-    height: 24px;
+    height: 20px;
     border-radius: 10px;
     padding-left: 10px;
     color: white;
