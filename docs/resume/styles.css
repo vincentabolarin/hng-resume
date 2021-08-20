@@ -107,10 +107,44 @@ ul li {
 }
 
 .headings {
-    color: red;
+    color: white;
+    background-color: darkslategray;
     text-transform: uppercase;
-    text-decoration: underline;
     font-size: 1.3em;
+    width: 100vw;
+    margin-left: -2px;
+    padding: 5px;
+    text-align: center;
+}
+
+.skill-level-container {
+    height: 24px;
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.skill-level {
+    height: 24px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.skill-level-html, .skill-level-wp {
+    width: 100%;
+    background-color: green;
+}
+
+.skill-level-css {
+    width: 70%;
+    background-color: goldenrod;
+}
+
+.skill-level-js {
+    width: 50%;
+    background-color: goldenrod;
 }
 
 #name-link {
