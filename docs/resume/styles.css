@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: verdana, arial, helvetica;
+    background-color:rgb(240, 240, 240);
 }
 
 header, header div {
@@ -107,8 +108,21 @@ ul li {
     margin-top: 20px;
 }
 
-#main-content div section, #main-content div section h4 {
+#main-content div section {
+    background-color: white;
+    padding: 10px;
+    margin-right: -38px;
+    margin-bottom: 30px;
+    box-shadow: black 5px 5px 10px;
+}
+
+#main-content div section:hover {
+    transform:scale(1.05);
+}
+
+#main-content div section h4 {
     margin-top: 10px;
+    width: 80%;
 }
 
 .headings {
