@@ -91,6 +91,10 @@ header div p {
     color: white;
 }
 
+#contact-details ul li:hover {
+    transform: scale(1.1);
+}
+
 ul li {
     list-style-position: inside;
     margin-left: 1em;
