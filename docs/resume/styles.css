@@ -94,8 +94,13 @@ header div p {
     color: white;
 }
 
+#contact-details ul a:hover {
+    color: yellow;
+}
+
 #contact-details ul li:hover {
     transform: scale(1.1);
+    color: yellow;
 }
 
 ul li {
@@ -121,7 +126,7 @@ ul li {
     padding: 10px;
     /* margin-right: -38px; */
     margin-bottom: 50px;
-    box-shadow: black 5px 5px 10px;
+    box-shadow: black 1px 1px 20px;
 }
 
 #main-content div section:hover {
@@ -175,7 +180,7 @@ ul li {
 }
 
 .skill-level-js {
-    width: 50%;
+    width: 60%;
     background-color: goldenrod;
 }
 
@@ -203,7 +208,7 @@ footer {
     background-color: darkslategray;
     color: white;
     font-size: 0.8em;
-    width: 100%;
+    width: 100vw;
     margin: 20px -20px -10px -10px;
     padding: 5px;
 }
@@ -230,6 +235,10 @@ footer {
 
     header div p {
         text-align: left;
+    }
+
+    .main-nav {
+        display: none;
     }
 
     #my-picture {
